@@ -12,6 +12,7 @@ export class TodayMarker {
     leftMargin;
     constructor () {
         this.dateToday = new Date();
+        // according to the current date the todaymarker is placed 
         let initialMargin = 15;
         this.leftMargin = initialMargin + (this.dateToday.getMonth() * 30);
     }

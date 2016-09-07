@@ -1,1 +1,1 @@
-export { GetProjectsService } from './get-projects.service'
+export { GetProjects } from './get-projects.service'

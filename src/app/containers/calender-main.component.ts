@@ -1,4 +1,4 @@
-import { Component } from '@angular/core'
+import { Component, Input } from '@angular/core'
 import { CalenderHeader, CalenderContent, TodayMarker } from './../ui';
 @Component({
    selector: 'calender-main',
@@ -10,11 +10,12 @@ import { CalenderHeader, CalenderContent, TodayMarker } from './../ui';
             <today-marker></today-marker>
             <calender-header></calender-header>
         </div>
-        <calender-content></calender-content>
+        <calender-content [calenderData]="calenderData"></calender-content>
     </div>
    </div>
    `
 })
-export class CalenderMain{
 
+export class CalenderMain{
+    @Input () calenderData;
 }

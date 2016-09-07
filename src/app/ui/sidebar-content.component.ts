@@ -7,12 +7,11 @@ import { MaturityModel } from './../models';
     <div class="calendar-content">
         <div *ngFor="let obj of calenderData" class="row-item">
             <div class="cell-item title">
-                <p>{{ obj.title }}</p>
+                {{ obj.title }}
             </div>
             <div class="cell-item status">{{ obj.status }}</div>
             <div class="cell-item maturity">
-                <span *ngFor="let maturity of obj.maturities" class="{{getMaturityClass(maturity)}}">{{ maturity.percentage }}</span>
-                
+                <span *ngFor="let maturity of obj.maturities" class="{{getMaturityClass(maturity)}}">{{ maturity.percentage }}</span>      
             </div>
         </div>
     </div>

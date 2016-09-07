@@ -4,13 +4,7 @@ import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'Rxjs/add/observable/throw';
 @Injectable()
-export class GetProjectsService {
-  headers: Headers = new Headers({
-    'Content-Type': 'application/json',
-    Accept: 'application/json'
-  });
-
-  api_url: string = 'http://localhost:3000';
+export class GetProjects {
 
     constructor(private http: Http){}
     getJson = (response: Response): Observable<any> => {
