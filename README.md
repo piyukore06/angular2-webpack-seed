@@ -1,7 +1,7 @@
 # angular2-webpack-seed
-A seed project for angular2 and webpack
-An example app which reads data from a json file and renders it onto the screen
-This repo follows official angular styleguide https://angular.io/styleguide
+A seed project for angular2 and webpack.
+An example app which reads data from a json file and renders it onto the screen.
+This repo follows official angular styleguide https://angular.io/styleguide 
 and angular2 performance checklist https://github.com/mgechev/angular2-performance-checklist for better performance  
 
 # Getting Started
