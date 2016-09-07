@@ -1,6 +1,7 @@
 # angular2-webpack-seed
+
 A seed project for angular2 and webpack.
-An example app which reads data from a json file and renders it onto the screen.
+An example app which reads data from a .json file and renders it onto the screen.
 This repo follows official angular styleguide https://angular.io/styleguide 
 and angular2 performance checklist https://github.com/mgechev/angular2-performance-checklist for better performance  
 
@@ -20,6 +21,7 @@ and angular2 performance checklist https://github.com/mgechev/angular2-performan
 # Running the tests
 
 Run automated tests using the following command which include service test and component test
+    
     npm test  
 
-note: for tests karma-firefox-launcher is used by default. If you use chrome you can add your preference to karma.conf.js
+NOTE: For tests karma-firefox-launcher is used by default. If you use chrome you can add your preference to karma.conf.js
