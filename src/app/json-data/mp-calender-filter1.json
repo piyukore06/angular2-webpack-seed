@@ -1,0 +1,60 @@
+{
+    "data":[
+        {
+            "id":"8f42c780-cca3-4331-9985-e27988c567c5",
+            "title":"Season Campaigns Spring/Summer 2016",
+            "programId":"5a4a9517-a97a-4017-b1b4-d0fde4dc488a",
+            "programTitle":"Retail",
+            "status":"Open",
+            "maturities":[
+                {
+                    "id":"52fff952-cd5c-4e80-b443-825f4f77ff51",
+                    "title":"Project Budget",
+                    "percentage":"50",
+                    "state":"red"
+                },
+                {
+                    "id":"94edbf27-5700-40e6-8d7f-08c40dbfa332",
+                    "title":"Project Timing",
+                    "percentage":"20",
+                    "state":"green"
+                }
+            ],
+            "milestones":[
+                {
+                    "id":"27c50973-49de-4b91-b7a4-8b9ebbf8268a",
+                    "title":"Available For NSC",
+                    "state":"expired",
+                    "date":"2016-09-05",
+                    "options":{
+                        "projectStart":true
+                    }
+                },
+                {
+                    "id":"ad9d0880-8dbd-401c-ab62-ffc80e2e5d6a",
+                    "title":"Project visible",
+                    "state":"completed",
+                    "date":"2016-09-12",
+                    "options":{
+                        "phase":"2"
+                    }
+                },
+                {
+                    "id":"97bb6a69-3ecf-403c-b997-9f63931ba9ee",
+                    "title":"Project available",
+                    "state":"open",
+                    "date":"2016-09-26"
+                },
+                {
+                    "id":"d1f98762-97c9-47cf-bc3c-59b56d72a174",
+                    "title":"Finalized",
+                    "state":"open",
+                    "date":"2016-10-30",
+                    "options":{
+                        "projectEnd":true
+                    }
+                }
+            ]
+        }
+    ]
+}

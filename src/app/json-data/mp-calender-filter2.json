@@ -1,0 +1,111 @@
+{
+    "data":[
+        {
+            "id":"8f42c780-cca3-4331-9985-e27988c567c5",
+            "title":"Season Campaigns Spring/Summer 2016",
+            "programId":"5a4a9517-a97a-4017-b1b4-d0fde4dc488a",
+            "programTitle":"Retail",
+            "status":"Open",
+            "maturities":[
+                {
+                    "id":"52fff952-cd5c-4e80-b443-825f4f77ff51",
+                    "title":"Project Budget",
+                    "percentage":"50",
+                    "state":"red"
+                },
+                {
+                    "id":"94edbf27-5700-40e6-8d7f-08c40dbfa332",
+                    "title":"Project Timing",
+                    "percentage":"20",
+                    "state":"green"
+                }
+            ],
+            "milestones":[
+                {
+                    "id":"27c50973-49de-4b91-b7a4-8b9ebbf8268a",
+                    "title":"Available For NSC",
+                    "state":"expired",
+                    "date":"2016-09-05",
+                    "options":{
+                        "projectStart":true
+                    }
+                },
+                {
+                    "id":"ad9d0880-8dbd-401c-ab62-ffc80e2e5d6a",
+                    "title":"Project visible",
+                    "state":"completed",
+                    "date":"2016-09-12",
+                    "options":{
+                        "phase":"2"
+                    }
+                },
+                {
+                    "id":"97bb6a69-3ecf-403c-b997-9f63931ba9ee",
+                    "title":"Project available",
+                    "state":"open",
+                    "date":"2016-09-26"
+                },
+                {
+                    "id":"d1f98762-97c9-47cf-bc3c-59b56d72a174",
+                    "title":"Finalized",
+                    "state":"open",
+                    "date":"2016-10-30",
+                    "options":{
+                        "projectEnd":true
+                    }
+                }
+            ]
+        },
+        {
+        
+            "id":"bf72be1c-0cfc-4e97-b40f-6f36a86e032d",
+            "title":"Service Retention Update",
+            "programId":"b51db79d-3f1a-4e61-8a42-243aa86b9986",
+            "programTitle":"DEALER",
+            "status":"Finalized",
+            "maturities":[
+                {
+                    "id":"621844f9-0ea5-4eef-bd34-31a7f1bfa11c",
+                    "title":"Project Budget",
+                    "percentage":"30",
+                    "state":"green"
+                },
+                {
+                    "id":"94edbf27-5700-40e6-8d7f-08c40dbfa332",
+                    "title":"Project Timing",
+                    "percentage":"30",
+                    "state":"yellow"
+                }
+            ],
+            "milestones":[
+                {
+                    "id":"27c50973-49de-4b91-b7a4-8b9ebbf8268a",
+                    "title":"Available For NSC",
+                    "state":"expired",
+                    "date":"2016-09-20",
+                    "options":{
+                        "projectStart":true
+                    }
+                },
+                {
+                    "id":"ad9d0880-8dbd-401c-ab62-ffc80e2e5d6a",
+                    "title":"Project visible",
+                    "state":"completed",
+                    "date":"2016-10-01",
+                    "options":{
+                        "phase":"2"
+                    }
+                },
+                {
+                    "id":"d1f98762-97c9-47cf-bc3c-59b56d72a174",
+                    "title":"Finalized",
+                    "state":"open",
+                    "date":"2016-11-05",
+                    "options":{
+                        "projectEnd":true
+                    }
+                }
+            ]
+        }
+    ]
+}
