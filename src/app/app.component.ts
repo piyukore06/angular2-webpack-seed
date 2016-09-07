@@ -12,6 +12,7 @@ import { GetProjects } from './services';
     </div>  
    ` 
 })
+
 export class App{
     calenderData;
     constructor(private getProjects: GetProjects) {

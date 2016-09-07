@@ -8,6 +8,7 @@ import { SideBarContent } from './';
     directives: [SideBarContent],
     template: '<sidebar-content [calenderData]="calenderData"></sidebar-content>'
 })
+
 class TestComponent{
     calenderData = [
         {
@@ -34,7 +35,7 @@ class TestComponent{
     ];
 }
 
-describe('SideBarContent: component', () => {
+describe('SideBarContent: Component', () => {
   let tcb;
   
   //setup

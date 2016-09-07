@@ -14,8 +14,4 @@ import { SideBarHeader, SideBarContent } from './../ui';
 
 export class SideBar{
     @Input () calenderData;
-    constructor() {
-       
-    }
-
 }

@@ -3,22 +3,21 @@ import { Component, ChangeDetectionStrategy } from '@angular/core'
 @Component({
    selector: 'calender-header',
    template: `
-            <div class="row-calendar-year">
-                <div *ngFor="let year of years" class="cell-calendar-year">
-                    <div  class="row-calendar year">
-                        <div class="cell-calendar">
-                            <strong>{{ year }}</strong>
-                        </div>
-                    </div>
-                    <div class="row-calendar quarter">
-                        <div *ngFor="let quarter of quarters"  class="cell-calendar">{{ quarter }}</div>
-                    </div>
-                    <div class="row-calendar month">
-                        <div *ngFor="let month of months" class="cell-calendar"><span>{{ month }}</span></div>
-                    </div>
+    <div class="row-calendar-year">
+        <div *ngFor="let year of years" class="cell-calendar-year">
+            <div  class="row-calendar year">
+                <div class="cell-calendar">
+                    <strong>{{ year }}</strong>
                 </div>
-
             </div>
+            <div class="row-calendar quarter">
+                <div *ngFor="let quarter of quarters"  class="cell-calendar">{{ quarter }}</div>
+            </div>
+            <div class="row-calendar month">
+                <div *ngFor="let month of months" class="cell-calendar"><span>{{ month }}</span></div>
+            </div>
+        </div>
+    </div>
    `,
    // headers have static content so ChangeDetectionStrategy.OnPush
    changeDetection: ChangeDetectionStrategy.OnPush

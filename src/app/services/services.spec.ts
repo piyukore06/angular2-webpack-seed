@@ -3,10 +3,7 @@ import { BaseRequestOptions, Http, Response, ResponseOptions } from '@angular/ht
 import { MockBackend } from '@angular/http/testing';
 import { GetProjects } from './';
 
-var readJSON = require('karma-read-json');
-
-
- describe('GetProjectsService', () => {
+ describe('GetProjects : Service', () => {
   let projectService: GetProjects;
   let mockbackend: MockBackend;
 

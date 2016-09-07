@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core'
 import { CalenderHeader, CalenderContent, TodayMarker } from './../ui';
+
 @Component({
    selector: 'calender-main',
    directives: [CalenderHeader, CalenderContent, TodayMarker],
