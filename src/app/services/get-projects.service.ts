@@ -2,7 +2,7 @@ import { Http, Headers, Response } from '@angular/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
-import 'Rxjs/add/observable/throw';
+import 'rxjs/add/observable/throw';
 @Injectable()
 export class GetProjects {
 

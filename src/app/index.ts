@@ -1,4 +1,6 @@
 export { App } from './app.component';
+export { AppModule } from './app.module';
+export { GetProjects } from './services';
 import * as services from './services';
 import 'rxjs/add/operator/map';
 // Utility method to convert all the services to an array
@@ -6,6 +8,6 @@ import 'rxjs/add/operator/map';
 
 const mapValuesToArray = (obj) => Object.keys(obj).map(key => obj[key]);
 
-export const providers = [
+export const Providers = [
     ...mapValuesToArray(services)
 ];
